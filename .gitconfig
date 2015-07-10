@@ -1,0 +1,16 @@
+[user]
+	email = scplay@gmail.com
+	name = ZeonWang
+[color]
+	ui = true
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	st = status
+	ch = checkout
+	chb = checkout
+	cm = commit -m
+	br = branch
+	ad = add
+	cam = commit -am
+	ps = push
+	po = push origin
