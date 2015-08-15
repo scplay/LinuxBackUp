@@ -6,11 +6,15 @@
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	st = status
+	sts = status -s
 	ch = checkout
-	chb = checkout
+	chb = checkout -b
 	cm = commit -m
 	br = branch
 	ad = add
-	cam = commit -am
+	cma = commit -am
 	ps = push
 	po = push origin
+	cl = clone
+[push]
+	default = simple
